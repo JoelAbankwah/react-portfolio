@@ -34,8 +34,4 @@ Joel Abankwah
 ✉️ Email me with any questions: joelabankwah15@gmail.com<br /><br />
 GitHub: [JoelAbankwah](https://github.com/JoelAbankwah)<br />
 <br />
-<<<<<<< HEAD
-    
-=======
-    
->>>>>>> 626246b8658160255da67d99604812bdb39f05b1
+
