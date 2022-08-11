@@ -19,25 +19,25 @@ function Portfolio() {
 			deployed: 'https://artistnation-presslist.herokuapp.com/',
 		},
 		{
-			name: 'Budget Tracker',
+			name: 'DEJA IMP',
 			description:
-				'An application that allows you to easily track your income and expenses.',
-			image: 'budget-tracker.png',
+				'Warehouse management software for enterprise transition from traditional ledger based inventory systems to team based digital inventory.',
+			image: 'deja-imp.png',
 			technologies: [
 				'JavaScript',
-				'Node.js',
+				'GraphQl',
 				'Express',
                 'MongoDB',
-                'IndexeDB & Service Workers',
+                'Apollo',
 				'Heroku',
 			],
-			github: 'https://github.com/JoelAbankwah/budget-tracker',
-			deployed: 'https://warm-woodland-92951.herokuapp.com',
+			github: 'https://github.com/edellenator/Deja-imp/',
+			deployed: 'https://deja-imp.herokuapp.com',
 		},
 		{
 			name: 'Cat Me',
 			description:
-				'Cat Me is an application that allows users to get photos and facts about cats. Users also have the ability to favorite and save photos and/or facts to their local storage.',
+				'Cat Me is an application that allows users to get fun photos and facts about cats.',
 			image: 'cat-me.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Foundation', 'GoogleIcons'],
 			github: 'https://github.com/sammylwolfson/cat-me',
