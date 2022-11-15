@@ -40,7 +40,7 @@ const About = () => {
                 </p>
             </div>
             <div className='photo-container'>
-                <img src={photoOfMe} alt='photo of me' className='photo' />
+                <img src={photoOfMe} alt='Joel Abankwah' className='photo' />
             </div>
         </div>
         <Loader type='pacman' />
