@@ -1,6 +1,6 @@
 {
-  "homepage": "http://joelabankwah.github.io/react-portfolio",
-  "proxy": "http://joelabankwah.github.io/react-portfolio",
+  "homepage": "https://agile-caverns-26048.herokuapp.com/",
+  "proxy": "https://agile-caverns-26048.herokuapp.com/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
