@@ -1,11 +1,8 @@
 {
-  "homepage": "https://agile-caverns-26048.herokuapp.com/",
-  "proxy": "https://agile-caverns-26048.herokuapp.com/",
+  "homepage": "http://joelabankwah.github.io/react-portfolio",
+  "proxy": "http://localhost:3000",
   "name": "react-portfolio",
-  "version": "1.0.0",
-  "engines": {
-    "node": "18.x"
-  },
+  "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
