@@ -1,6 +1,6 @@
 {
-  "homepage": "http://joelabankwah.github.io/react-portfolio",
-  "proxy": "http://localhost:3000",
+  "homepage": "http://joelabankwah.github.io/react-portfolio/",
+  "proxy": "http://joelabankwah.github.io/react-portfolio/",
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
