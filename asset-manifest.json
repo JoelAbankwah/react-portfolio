@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.342bd111.css",
-    "main.js": "/react-portfolio/static/js/main.6aee479f.js",
-    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
-    "static/media/book-search-engine.png": "/react-portfolio/static/media/book-search-engine.f574c24c0e13282e6283.png",
-    "static/media/cat-me.png": "/react-portfolio/static/media/cat-me.f3d1c3228eacba42c98d.png",
-    "static/media/photo-of-me.jpg": "/react-portfolio/static/media/photo-of-me.ff37451bd9b37184af1e.jpg",
-    "static/media/weather-dashboard.png": "/react-portfolio/static/media/weather-dashboard.f0fcfc70647b5bf043e1.png",
-    "static/media/artist-presslist.png": "/react-portfolio/static/media/artist-presslist.11aff9a2142cb797ea19.png",
-    "static/media/budget-tracker.png": "/react-portfolio/static/media/budget-tracker.200f705ba04e7aa44c5d.png",
-    "static/media/deja-imp.png": "/react-portfolio/static/media/deja-imp.475dce17349c440fb787.png",
-    "static/media/tech-blog.png": "/react-portfolio/static/media/tech-blog.8c7d7d7da29e35e0c47c.png",
-    "static/media/helvetica-neu.ttf": "/react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
-    "static/media/LaBelleAurore.woff2": "/react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
-    "static/media/logo-j.png": "/react-portfolio/static/media/logo-j.47f8a74f6bc770e5aaf3.png",
-    "static/media/CoolveticaRg-Regular.woff2": "/react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
-    "index.html": "/react-portfolio/index.html",
-    "main.342bd111.css.map": "/react-portfolio/static/css/main.342bd111.css.map",
-    "main.6aee479f.js.map": "/react-portfolio/static/js/main.6aee479f.js.map",
-    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+    "main.css": "/static/css/main.21e5e1f2.css",
+    "main.js": "/static/js/main.2b5cc17c.js",
+    "static/js/787.a2cb61a6.chunk.js": "/static/js/787.a2cb61a6.chunk.js",
+    "static/media/book-search-engine.png": "/static/media/book-search-engine.f574c24c0e13282e6283.png",
+    "static/media/cat-me.png": "/static/media/cat-me.f3d1c3228eacba42c98d.png",
+    "static/media/photo-of-me.jpg": "/static/media/photo-of-me.ff37451bd9b37184af1e.jpg",
+    "static/media/weather-dashboard.png": "/static/media/weather-dashboard.f0fcfc70647b5bf043e1.png",
+    "static/media/artist-presslist.png": "/static/media/artist-presslist.11aff9a2142cb797ea19.png",
+    "static/media/budget-tracker.png": "/static/media/budget-tracker.200f705ba04e7aa44c5d.png",
+    "static/media/deja-imp.png": "/static/media/deja-imp.475dce17349c440fb787.png",
+    "static/media/tech-blog.png": "/static/media/tech-blog.8c7d7d7da29e35e0c47c.png",
+    "static/media/helvetica-neu.ttf": "/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/logo-j.png": "/static/media/logo-j.47f8a74f6bc770e5aaf3.png",
+    "static/media/CoolveticaRg-Regular.woff2": "/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/index.html",
+    "main.21e5e1f2.css.map": "/static/css/main.21e5e1f2.css.map",
+    "main.2b5cc17c.js.map": "/static/js/main.2b5cc17c.js.map",
+    "787.a2cb61a6.chunk.js.map": "/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.342bd111.css",
-    "static/js/main.6aee479f.js"
+    "static/css/main.21e5e1f2.css",
+    "static/js/main.2b5cc17c.js"
   ]
 }
