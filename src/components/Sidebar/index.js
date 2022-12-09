@@ -7,20 +7,20 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className='logo text-zone' to='/'>
+        <Link className='logo text-zone' to='/react-portfolio'>
             <img src={LogoS} alt='logo' />
         </Link>
         <nav>
-            <NavLink exact='true' activeclassname='active' to='/'>
+            <NavLink exact='true' activeclassname='active' to='/react-portfolio'>
                 <FontAwesomeIcon icon={faHome} color='#4d4d4e' />
             </NavLink>
-            <NavLink exact='true' activeclassname='active' className='about-link' to='/about'>
+            <NavLink exact='true' activeclassname='active' className='about-link' to='/react-portfolio/about'>
                 <FontAwesomeIcon icon={faUser} color='#4d4d4e' />
             </NavLink>
-            <NavLink exact='true' activeclassname='active' className='project-link' to='/projects'>
+            <NavLink exact='true' activeclassname='active' className='project-link' to='/react-portfolio/projects'>
                 <FontAwesomeIcon icon={faFolderClosed} color='#4d4d4e' />
             </NavLink>
-            <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
+            <NavLink exact='true' activeclassname='active' className='contact-link' to='/react-portfolio/contact'>
                 <FontAwesomeIcon icon={faEnvelope} color='#4d4d4e' />
             </NavLink>
         </nav>
