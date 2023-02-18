@@ -15,6 +15,7 @@ import project7 from '../../assets/images/book-search-engine.png'
 const Projects = () => {
   const [index, setIndex] = useState(0);
   const [ letterClass, setLetterClass ] = useState('text-animate');
+  const [ direction, setDirection ] = useState('');
 
   const cards = [
     { id: '1', image:  project1, title: 'Artist Nation Presslist', link: 'https://artistnation-presslist.herokuapp.com/', tech: ['MYSQL', 'Heroku', 'Express.js'], left: true },
@@ -32,11 +33,11 @@ const Projects = () => {
     return result >= 0 ? result : result + m;
   }
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIndex((index + 1) % cards.length);
-    }, 5000);
-  }, [index]);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIndex((index + 1) % cards.length);
+  //   }, 5000);
+  // }, [index]);
 
   return (
     <>
@@ -51,9 +52,16 @@ const Projects = () => {
           </h1>
         </div>
         <div className='carousel'>
+
+        <button className='btn btn-left' onClick={function(){
+          setDirection('left');
+          setIndex((index + 1) % cards.length);
+          }}></button>
+          
           {cards.map((item, i) => {
-            const indexLeft = mod(index -1, cards.length);
-            const indexRight = mod(index + 1, cards.length);
+            if(direction === 'right') {
+            let indexLeft = mod(index + 1, cards.length);
+            let indexRight = mod(index - 1, cards.length);
 
             let className = '';
 
@@ -77,7 +85,7 @@ const Projects = () => {
             } else {
               imageClass = 'image image-left'
             }
-
+            
             return (
               <div className={className} key={item.id}>
                 <a href={item.link} target='_blank' rel='noreferrer'>
@@ -86,9 +94,49 @@ const Projects = () => {
                 <h1 className='title'>{item.title}</h1>
                 <p className='tech'>Technology Used: {item.tech.join(' / ')}</p>
               </div>
-            
             )
+        } else {
+            let indexLeft = mod(index - 1, cards.length);
+            let indexRight = mod(index + 1, cards.length);
+
+            let className = '';
+
+            if(i === index) {
+              className = 'card card--active';
+            }
+              else if (i === indexLeft) {
+                className = 'card card--left';
+            } 
+              else if (i === indexRight) {
+                className = 'card card--right';
+            } 
+            else {
+              className = 'card';
+            }
+
+            let imageClass = '';
+
+            if (!item.left) {
+              imageClass = 'image'
+            } else {
+              imageClass = 'image image-left'
+            }
+            
+            return (
+              <div className={className} key={item.id}>
+                <a href={item.link} target='_blank' rel='noreferrer'>
+                  <img key={item.id} src={item.image} alt={item.title} className={imageClass} />
+                </a>
+                <h1 className='title'>{item.title}</h1>
+                <p className='tech'>Technology Used: {item.tech.join(' / ')}</p>
+              </div>
+            )
+        }
           })}
+        <button className='btn btn-right' onClick={function(){
+          setDirection('right');
+          setIndex((index + 1) % cards.length); 
+          }}></button>
         </div>
       </div>
       <Loader type='pacman' />

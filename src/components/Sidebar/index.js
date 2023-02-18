@@ -26,7 +26,7 @@ const Sidebar = () => (
         </nav>
         <ul>
         <li>
-                <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/1JqZBnEYvu2p6uJAlA-vpz_cQaWWXzwPT6AZ9_xyMc1M/'>
+                <a target='_blank' rel='noreferrer' href='https://docs.google.com/document/d/1BhwxeCDIiUQESTcJ3Lm5xuu9ygtJQKU28jmiAjttvBc/'>
                     <FontAwesomeIcon icon={faFileContract} color='#4d4d4e' />
                 </a>
             </li>

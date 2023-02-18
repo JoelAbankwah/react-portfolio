@@ -123,9 +123,18 @@
     }
   }
 
-  .btn {
-    width: 100px;
+  .btn-left {
+    width: 30px;
     position: absolute;
-    top: 50%;
-    height: 50px;
+    top: 45%;
+    height: 100px;
+    left: 4%;
+  }
+
+  .btn-right {
+    width: 30px;
+    position: absolute;
+    top: 45%;
+    height: 100px;
+    left: 96.5%;
   }
