@@ -123,18 +123,25 @@
     }
   }
 
+  .btn {
+    background: transparent;
+    border: solid #ffd700;
+    border-width: 0 5px 5px 0;
+    padding: 14px;
+  }
+
   .btn-left {
-    width: 30px;
     position: absolute;
     top: 45%;
-    height: 100px;
-    left: 4%;
+    left: 4.5%;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
   }
 
   .btn-right {
-    width: 30px;
     position: absolute;
     top: 45%;
-    height: 100px;
-    left: 96.5%;
+    left: 97%;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
   }

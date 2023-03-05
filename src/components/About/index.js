@@ -25,16 +25,16 @@ const About = () => {
                     />
                 </h1>
                 <p>
-                    I am a very ambitous junior web developer looking for a role
+                &nbsp; &nbsp;  I am a very ambitous junior web developer looking for a role
                     in an established IT company with the opportunity to learn
                     vastly from great mentors while working on challenging projects.
                 </p>
                 <p>
-                    Work well in a team, quick learner, and constantly trying to further
+                &nbsp; &nbsp; Work well in a team, quick learner, and constantly trying to further
                     improve my skills as a critical thinker and problem solver.
                 </p>
                 <p>
-                    If I had to describe myself in a few words, they would be family orientated, 
+                &nbsp; &nbsp;  If I had to describe myself in a few words, they would be family orientated, 
                     curious, car enthusiast, basketball fanatic, puzzle and strategy game addict,
                     and technophile. 
                 </p>

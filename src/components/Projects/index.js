@@ -33,12 +33,6 @@ const Projects = () => {
     return result >= 0 ? result : result + m;
   }
 
-  // useEffect(() => {
-  //   setTimeout(() => {
-  //     setIndex((index + 1) % cards.length);
-  //   }, 5000);
-  // }, [index]);
-
   return (
     <>
       <div className="container">
